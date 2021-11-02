@@ -11,6 +11,7 @@ public class Customer {
     private ArrayList<Account> accounts;
 
     public void verifyPassword() {
-
+        ATM atm = new ATM();
+        // TODO
     }
 }

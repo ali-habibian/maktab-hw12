@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Account {
     private long accountNumber;
     private double balance;
-    private ArrayList<ATMTransactions> atmTransactions;
 
     public void deposit() {
         // TODO
@@ -16,6 +15,7 @@ public class Account {
     }
 
     public void createTransaction() {
+        ATMTransactions atmTransactions = new ATMTransactions();
         // TODO
     }
 }
